@@ -9,7 +9,7 @@ export default function SingPost() {
   const location = useLocation()
   const path = location.pathname.split("/")[2];
   const [post, setpost] =useState({})
-  const PF = "http://13.233.92.77/images/";
+  const PF = "http://localhost:3500/images/";
   const { user } = useContext(Context);
   const [title, setTitle] = useState("")
   const [desc, setDesc] = useState("")

@@ -1,5 +1,5 @@
 import axios from "axios" 
 
 export const axiosInstance = axios.create({
-    baseURL: "http://localhost:3500/admin/"
+    baseURL: "https://adminpanel-vwkn.onrender.com/admin/"
 })
